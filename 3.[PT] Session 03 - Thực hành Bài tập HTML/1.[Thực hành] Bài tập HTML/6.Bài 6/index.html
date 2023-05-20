@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bán hàng Online</title>
+  </head>
+  <body>
+    <header>
+      <h1>Trang web thương mại điện tử</h1>
+      <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Giỏ hàng</a>
+        <a href="#">Liên hệ</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Ảnh</th>
+              <th>Tên sản phẩm</th>
+              <th>Giá</th>
+              <th>Mô tả</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">
+                <img
+                  src="https://fruitshop.com.vn/image/cache/data/granny%20smith-700x700.jpg"
+                  alt="táo xanh"
+                  width="200px"
+                />
+              </td>
+              <td><a href="#">Sản phẩm 1</a></td>
+              <td rowspan="3">100,000đ</td>
+              <td rowspan="3">Mô tả sản phẩm 1</td>
+            </tr>
+            <tr>
+              <td>Size:M</td>
+            </tr>
+            <tr>
+              <td>Color:N</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://img07.shop-pro.jp/PA01462/194/product/165953248.jpg?cmsp_timestamp=20230319124134"
+                  alt="macbook"
+                  width="200px"
+                />
+              </td>
+              <td><a href="#">Sản phẩm 2</a></td>
+              <td>20,000,000đ</td>
+              <td>Mô tả sản phẩm 2</td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <img
+                  src="https://store.storeimages.cdn-apple.com/8567/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch-deeppurple?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1663703840578"
+                  alt="iphone"
+                  width="200px"
+                />
+              </td>
+              <td>Mô tả sản phẩm 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Liên hệ</h2>
+        <form action="#" method="post">
+          <label for="fullName">Họ và Tên:</label>
+          <input type="text" name="fullName" id="fullName" /><br />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" /><br />
+          <label for="content">Nội dung:</label>
+          <textarea name="content" id="content" cols="30" rows="3"></textarea
+          ><br />
+          <input type="submit" value="Gửi" />
+        </form>
+      </section>
+      <section>
+        <h2>Thanh toán</h2>
+        <form action="#" method="post">
+          <label for="fullName">Họ và Tên:</label>
+          <input type="text" name="fullName" id="fullName" /><br />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" /><br />
+          <label for="number">Số thẻ:</label>
+          <input type="number" name="number" id="number" /><br />
+          <label for="expriration">Ngày hết hạn:</label>
+          <input type="text" name="expriration" id="expriration" /><br />
+          <input type="submit" value="Thanh toán" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Trang web thương mại điện tử</p>
+    </footer>
+  </body>
+</html>

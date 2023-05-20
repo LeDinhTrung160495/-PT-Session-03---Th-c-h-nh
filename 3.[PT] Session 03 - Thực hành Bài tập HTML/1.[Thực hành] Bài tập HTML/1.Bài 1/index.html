@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web mua ô tô</title>
+  </head>
+  <body>
+    <h2>Đăng ký mua xe ô tô</h2>
+    <form action="#" method="post">
+      <label for="fullName">Họ và tên:</label>
+      <input
+        type="text"
+        name="fullName"
+        id="fullName"
+        placeholder="Tên của bạn"
+      /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email của bạn"
+      /><br />
+      <label for="phone">Số điện thoại:</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Số điện thoại của bạn"
+      />
+      <br />
+      <label for="car">Xe ô tô muốn mua:</label>
+      <input list="cars" name="car" id="car" placeholder="Mẫu xe" />
+      <datalist id="cars">
+        <option value="Toyota"></option>
+        <option value="Mazda"></option>
+        <option value="BMW"></option>
+        <option value="Nissan"></option></datalist
+      ><br />
+      <label for="message">Lời nhắn:</label>
+      <textarea name="message" id="message" rows="5" cols="30"></textarea><br />
+      <label for="color">Màu xe:</label>
+      <select name="color" id="color">
+        <option value="red">Đỏ</option>
+        <option value="yellow">Vàng</option>
+        <option value="green">Xanh</option></select
+      ><br />
+      <fieldset>
+        <legend>Phương thức thanh toán</legend>
+        <input type="radio" name="credit" id="credit" />
+        <label for="credit">Thẻ tín dụng</label><br />
+        <input type="radio" name="bank" id="bank" />
+        <label for="bank">Chuyển khoản ngân hàng</label>
+      </fieldset>
+      <br />
+      <label for="rule">Tôi đồng ý với các điều khoản:</label>
+      <input type="checkbox" name="rule" id="rule" /><br />
+      <input type="submit" value="Gửi" />
+    </form>
+  </body>
+</html>
